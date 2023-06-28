@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input">
+    <button id="button" onclick="fruit()">check</button>
+    <p id="demo"></p>
+    <script>
+       var result;
+ function fruit(){
+    
+         var fruit=document.getElementById('input').value;
+        var result;       switch (fruit) {
+            case 'mango':
+                result="mango is yammi";
+                break;
+
+                case'apple':
+                result='apple is yammi';
+                break;
+        
+                case'cooku':
+                result='cooku is good';
+                break;
+            default:
+                result='everything is good';
+        }
+        document.getElementById('demo').innerHTML=result;
+ }
+
+    </script>
+</body>
+</html>

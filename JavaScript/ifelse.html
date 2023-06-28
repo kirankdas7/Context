@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" id="inp" placeholder="enter a number">
+    <button onclick="check()">check</button>
+    <script>
+       function check(){
+        var num =Number(document.getElementById('inp').value);
+        if(num>0){
+            document.write("you are entered posetive Number");
+        }else{
+            document.write("you have entered negative number")
+        }
+        }
+    </script>
+</body>
+</html>

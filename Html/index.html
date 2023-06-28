@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: 10px;
+            padding: 10px;
+        }
+        .para1{
+            /* background-image: linear-gradient(orange, black); */
+            /* background-image: radial-gradient(violet, green); */
+            background-image: conic-gradient(red,blue ,green);
+            color: white;
+        }
+        .flexclass{
+           display: flex; 
+           flex-direction: row;
+           flex-wrap: wrap;
+justify-content: center;
+        }
+        .child{
+            color: white;
+            background-color: black;
+            padding:100px;
+        }
+       @media only screen and (max-width:600px ){
+        body{
+            background-color: blue;
+        }
+       }
+
+     
+    </style>
+</head>
+<body>
+   <div>
+    <form action="">
+        <label for="">name</label>
+        <input type="text" required><br>
+        <label for="">email</label>
+        <input type="email" pattern="[a-z0-9.-%]+@[a-z0-9.-]" ><br>
+        <label for="">password</label>
+        <input type="password"><br>
+        <button type="submit">Submit</button>
+    </form>
+   </div>
+   <div class="para1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo animi laboriosam velit eligendi quidem voluptatibus nisi porro praesentium labore itaque, doloribus, illo minima dolorum, nobis ratione. Minus a aut atque possimus deleniti architecto? Voluptatibus alias repellat eligendi sed quibusdam ducimus perferendis in odio ut similique nulla ipsa voluptatum quis illum quo, adipisci libero saepe accusamus sequi. Quas nisi autem quisquam ipsum aliquam tempore! Iusto quam consectetur eveniet. Sint ex recusandae soluta harum quaerat facere dignissimos explicabo, porro animi, laboriosam deleniti. Sint odit commodi quam libero pariatur quos nemo ducimus, officia, quasi minima, eligendi dolor maiores voluptatem impedit accusamus ad ea.</p>
+   </div>
+
+   <div class="flexclass">
+    <div class="child">box</div>
+    <div class="child">box</div>
+    <div class="child">box</div>
+    <div class="child">box</div>
+    <div class="child">box</div>
+    <div class="child">box</div>
+    <div class="child">box</div>
+
+   </div>
+
+   <div>
+    <p>2H <sub>2</sub>+O <sub>2</sub> = 2H <sub>2</sub>O <sub>2</sub></p>
+    <p>(a+b) <sup>2</sup> = (a) <sup>2</sup>+(b) <sup>2</sup></p>
+   </div>
+</body>
+</html>
